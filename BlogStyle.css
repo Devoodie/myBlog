@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Roboto+Mono&display=swap');
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: hsl(337 81% 68%);
+
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(120 0% 50% /1);
+    border-radius: 75vw;
+}
+body, html{
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+body{
+    background: url("/blurry-gradient-haikei.svg") fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.button{
+    background-color: white;
+    color: #f315f3;
+    border: 5px solid black;
+    font-family: 'Bagel Fat One', cursive;
+    border-radius: 40px ;
+    padding: 8px 30px;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.button:hover{
+    background-color: transparent;
+    color: white;
+}
+section {
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+    text-align: left;
+}
+.spacer{
+    min-height: 10vh;
+    color: transparent;
+}
+h1{
+    text-align: left;
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 211px ;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.navbar{
+    margin-top: 350px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 175px;
+}
+.navbar li{
+    margin-top: 5px;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    display: inline;
+    font-family: 'Bagel Fat One', cursive;
+    padding: 35px;
+    color: white;
+}
+.navbar li img{
+    margin-top: 400px;
+    border-radius: 35px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.navbar li img big{
+    margin-top: 400px;
+    border-radius: 35px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.navbar p{
+    margin-top: 300px;
+    color: white;
+    width: 600px ;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace ;
+    float: left;
+}
+.navbar1{
+    text-align: right;
+    list-style-type: none;
+    position: absolute; right: 100px; top: 700px;
+}
+.navbar1 li{
+    margin-top: 5px;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    display: inline;
+    font-family: 'Bagel Fat One', cursive;
+    padding: 35px;
+    color: white;
+}
+.navbar2{
+    margin-top: 250px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 200px;
+}
+.navbar2 li{
+    margin-top: 5px;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    display: inline;
+    font-family: 'Bagel Fat One', cursive;
+    padding: 35px;
+    color: white;
+}
+.navbar2 li img{
+    margin-top: 400px;
+    border-radius: 35px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.navbar2 li img big{
+    margin-top: 400px;
+    border-radius: 35px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.navbar2 p{
+    margin-top: 300px;
+    color: white;
+    width: 600px ;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace ;
+    float: left;
+}
