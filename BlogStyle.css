@@ -42,7 +42,7 @@ section {
     text-align: left;
 }
 .spacer{
-    min-height: 10vh;
+    min-height: 30vh;
     color: transparent;
 }
 h1{
@@ -55,11 +55,25 @@ h1{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+.smolimg{
+    margin-top: 400px;
+    border-radius: 35px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.bigimg{
+    margin-top: 100px;
+    width: 500px;
+    height: 781px;
+}
 .navbar{
+    position: static;
+    right: 0;
     margin-top: 350px;
     text-align: left;
     list-style-type: none;
-    margin-left: 175px;
+    margin-left: 135px;
 }
 .navbar li{
     margin-top: 5px;
@@ -71,20 +85,6 @@ h1{
     padding: 35px;
     color: white;
 }
-.navbar li img{
-    margin-top: 400px;
-    border-radius: 35px;
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-}
-.navbar li img big{
-    margin-top: 400px;
-    border-radius: 35px;
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-}
 .navbar p{
     margin-top: 300px;
     color: white;
@@ -92,6 +92,7 @@ h1{
     font-size: 25px;
     font-family: 'Roboto Mono', monospace ;
     float: left;
+    padding-right: 150px;
 }
 .navbar1{
     text-align: right;
@@ -107,42 +108,4 @@ h1{
     font-family: 'Bagel Fat One', cursive;
     padding: 35px;
     color: white;
-}
-.navbar2{
-    margin-top: 250px;
-    text-align: left;
-    list-style-type: none;
-    margin-left: 200px;
-}
-.navbar2 li{
-    margin-top: 5px;
-    left: 0;
-    right: 0;
-    min-width: 100%;
-    display: inline;
-    font-family: 'Bagel Fat One', cursive;
-    padding: 35px;
-    color: white;
-}
-.navbar2 li img{
-    margin-top: 400px;
-    border-radius: 35px;
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-}
-.navbar2 li img big{
-    margin-top: 400px;
-    border-radius: 35px;
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-}
-.navbar2 p{
-    margin-top: 300px;
-    color: white;
-    width: 600px ;
-    font-size: 25px;
-    font-family: 'Roboto Mono', monospace ;
-    float: left;
 }
