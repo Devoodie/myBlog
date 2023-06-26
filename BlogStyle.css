@@ -10,6 +10,22 @@
     background: hsl(120 0% 50% /1);
     border-radius: 75vw;
 }
+.searchbox{
+    float: right;
+    display: block;
+    margin-top: 85px;
+    border-radius: 40px;
+    width: 175px;
+    font-size: 50px;
+    margin-right: 138px;
+    border-color: transparent;
+    background-color: hsla(0, 2%, 59%, 1);
+    color: white;
+}
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
 body, html{
     scroll-behavior: smooth;
     height: 100%;
@@ -40,6 +56,18 @@ section {
     align-content: center;
     min-height: 100vh;
     text-align: left;
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateX(100%);
+}
+@media(prefers-reduced-motion) {
+    section {
+        display: grid;
+        align-content: center;
+        min-height: 100vh;
+        text-align: left;
+        transition: none;
+    }
 }
 .spacer{
     min-height: 30vh;
