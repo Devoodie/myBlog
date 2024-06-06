@@ -2,10 +2,6 @@
 ::-webkit-scrollbar{
     width: 5px;
 }
-::-webkit-scrollbar-track{
-    background: hsl(337 81% 68%);
-
-}
 ::-webkit-scrollbar-thumb{
     background: hsl(120 0% 50% /1);
     border-radius: 75vw;
@@ -32,13 +28,13 @@ body, html{
     margin: 0;
 }
 body{
-    background: url("/blurry-gradient-haikei.png") fixed;
+    background: url("blurry-gradient-haikei.png") fixed;
     background-size: cover;
     overflow-x: hidden;
 }
 .button{
     background-color: white;
-    color: #f315f3;
+    color: #4638A6;
     border: 5px solid black;
     font-family: 'Bagel Fat One', cursive;
     border-radius: 40px ;
