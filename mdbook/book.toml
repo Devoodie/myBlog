@@ -6,3 +6,4 @@ src = "src"
 title = "Blog"
 
 [output.html]
+site-url = "/blog/"
