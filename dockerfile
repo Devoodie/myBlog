@@ -1,8 +1,7 @@
 FROM nginx
 
+RUN apt update --no-cache
 RUN <<EOF
-mkdir SSLinfo
-apt update --no-cache
 yes | apt install vim
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 1
@@ -12,8 +11,9 @@ cargo install mdbook
 yes | apt install git 
 git clone https://github.com/Devoodie/myBlog.git
 rm /etc/nginx/conf.d/default.confd 
-cp /SSLinfo/default.confd /etc/nginx/conf.d/
-nginx reload
+cp /SSLinfo/default.conf /etc/nginx/conf.d/
+cp /myBlog/mdbook/book/* /myBlog/
+nginx -s reload
 mdbook serve /myBlog/mdbook/
 EOF
 
