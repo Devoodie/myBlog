@@ -1,2 +1,4 @@
 # Summary
-- [Chapter 1](./blog/chapter_2.md)
+
+# Welcome
+[Welcome](./blog/welcome.md)
