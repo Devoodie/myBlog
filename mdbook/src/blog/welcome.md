@@ -1,8 +1,8 @@
 # Welcome To My Blog!
 ### Introduction
-Hiya! My name is Devante, or Devooty depending on who you are, and I am an aspiring computer scientists and Software Engineer. My primary interest is in embedded systems, but I'm currently working as a Systems Administrator.
-This is my blog where I will be posting and journaling my computer science journey. That being said, please do not take any of what is being posted as fact. 
-This is simply my thoughts, emotions, and log of process to becoming a software engineer. 
+Hiya! My name is Devante, or Devooty depending on who you are, and I am an aspiring Computer Scientist and Software Engineer. My primary interest is in embedded systems, but I'm currently working as a Systems Administrator.
+This is my blog where I will be posting and journaling my Computer Science journey. That being said, please do not take any of what is being posted as fact. 
+This is simply my thoughts, emotions, and log of process to becoming a Software Engineer. 
 ### Content
 You may see things like a webserver in a random language im experimenting in *(zig below)*:
 ```
